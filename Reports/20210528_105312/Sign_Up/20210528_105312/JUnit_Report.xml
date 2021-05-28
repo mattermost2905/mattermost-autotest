@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign_Up" time="164.88" tests="12" failures="5" errors="0">
+   <testsuite name="Sign_Up" tests="12" failures="5" errors="0" time="164.88" skipped="0" timestamp="2021-05-28 10:53:26" hostname="dell - DESKTOP-I6PT8CN.mshome.net" id="Test Suites/Sign_Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312"/>
+         <property name="logFiles" value="C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174021684.png, C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174039730.png, C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174054606.png, C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174066730.png, C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174079013.png"/>
+         <property name="hostName" value="dell - DESKTOP-I6PT8CN.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="172.21.96.1"/>
+         <property name="sessionId" value="ea61a31a36b089a9f2701db98d14eb51"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign-Up-Account" time="14.041" classname="Test Cases/Sign-Up-Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 10:53:27 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 10:53:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:53:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:53:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:53:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:53:31 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:53:34 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:53:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text 'danguyen811999@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:53:40 - [MESSAGE][PASSED] - Text 'danguyen811999@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text 'Uyen' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:53:41 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:53:41 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+
+2021-05-28 10:53:41 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174021684.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 10:53:27 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="17.933" classname="Test Cases/Sign-Up-Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 10:53:41 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 10:53:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:53:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:53:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:53:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:53:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:53:44 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:53:49 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text 'danguyen0801@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:53:58 - [MESSAGE][PASSED] - Text 'danguyen0801@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:53:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text 'DangUyen' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:53:59 - [MESSAGE][PASSED] - Text 'DangUyen' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:53:59 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+
+2021-05-28 10:53:59 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174039730.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 10:53:41 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="14.835" classname="Test Cases/Sign-Up-Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 10:53:59 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 10:53:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:53:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:54:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:54:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:54:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:54:02 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:06 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text 'voanhduyen0604@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:13 - [MESSAGE][PASSED] - Text 'voanhduyen0604@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text 'testing1' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:14 - [MESSAGE][PASSED] - Text 'testing1' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:14 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+
+2021-05-28 10:54:14 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174054606.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 10:53:59 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="12.051" classname="Test Cases/Sign-Up-Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 10:54:14 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 10:54:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:54:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:54:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:54:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:54:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:54:16 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:20 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text 'uyenuyen8134@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:25 - [MESSAGE][PASSED] - Text 'uyenuyen8134@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text 'testing2' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:26 - [MESSAGE][PASSED] - Text 'testing2' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:26 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+
+2021-05-28 10:54:26 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174066730.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 10:54:14 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="12.23" classname="Test Cases/Sign-Up-Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 10:54:26 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 10:54:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:54:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:54:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:54:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:54:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:54:28 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:32 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text 'uchihakhacthuan@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:38 - [MESSAGE][PASSED] - Text 'uchihakhacthuan@gmail.com' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text 'testing3' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:38 - [MESSAGE][PASSED] - Text 'testing3' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:38 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+
+2021-05-28 10:54:39 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Script1622172252167.run(Script1622172252167.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_105312\\Sign_Up\\20210528_105312\\1622174079013.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 10:54:26 - [TEST_CASE][FAILED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="12.633" classname="Test Cases/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-28 10:54:39 - [TEST_CASE][PASSED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account
+
+2021-05-28 10:54:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:54:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:54:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:54:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:54:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:54:41 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:44 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:54:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:54:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:54:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on
+
+2021-05-28 10:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="13.121" classname="Test Cases/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-28 10:54:51 - [TEST_CASE][PASSED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account
+
+2021-05-28 10:54:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:54:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:54:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:54:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:54:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:54:54 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:57 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:54:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on
+
+2021-05-28 10:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="13.488" classname="Test Cases/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-28 10:55:04 - [TEST_CASE][PASSED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account
+
+2021-05-28 10:55:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:55:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:55:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:55:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:55:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:55:06 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:11 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on
+
+2021-05-28 10:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="13.116" classname="Test Cases/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-28 10:55:18 - [TEST_CASE][PASSED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account
+
+2021-05-28 10:55:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:55:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:55:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:55:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:55:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:55:20 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:24 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on
+
+2021-05-28 10:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="12.349" classname="Test Cases/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-28 10:55:31 - [TEST_CASE][PASSED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account
+
+2021-05-28 10:55:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:55:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:55:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:55:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:55:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:55:33 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:36 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on
+
+2021-05-28 10:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="13.582" classname="Test Cases/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-28 10:55:43 - [TEST_CASE][PASSED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account
+
+2021-05-28 10:55:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:55:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:55:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:55:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:55:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:55:45 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:49 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:55:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:55:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:55:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on
+
+2021-05-28 10:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign-Up-Account" time="12.854" classname="Test Cases/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-28 10:55:57 - [TEST_CASE][PASSED] - Test Cases/Sign-Up-Account: Test Cases/Sign-Up-Account
+
+2021-05-28 10:55:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 10:55:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 10:55:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 10:55:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 10:55:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 10:55:59 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:56:03 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-28 10:56:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email"), EmailAddress): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:56:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_concat(What, , s your email address)_email'
+
+2021-05-28 10:56:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name"), Username): Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:56:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your username_name'
+
+2021-05-28 10:56:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:56:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+
+2021-05-28 10:56:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on
+
+2021-05-28 10:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/Page_Mattermost/span_Create Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-28 10:53:26 - [TEST_SUITE][FAILED] - Sign_Up: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-05-28 10:53:26 - [TEST_SUITE][FAILED] - Sign_Up: Test Cases/Sign-Up-Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Mattermost/Page_Mattermost/input_Choose your password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1010)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$2.call(Unknown Source)
+	at Sign-Up-Account.run(Sign-Up-Account:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622173992333.run(TempTestSuite1622173992333.groovy:39)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:405)
+	at com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:437)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

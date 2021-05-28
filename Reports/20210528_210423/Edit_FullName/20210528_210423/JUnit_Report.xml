@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit_FullName" time="428.288" tests="6" failures="3" errors="0">
+   <testsuite name="Edit_FullName" tests="6" failures="3" errors="0" time="428.288" skipped="0" timestamp="2021-05-28 21:04:38" hostname="dell - DESKTOP-I6PT8CN.mshome.net" id="Test Suites/Edit_FullName">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423"/>
+         <property name="logFiles" value="C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423\\1622210828070.png, C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423\\1622210989559.png, C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423\\1622211105017.png"/>
+         <property name="hostName" value="dell - DESKTOP-I6PT8CN.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="172.21.96.1"/>
+         <property name="sessionId" value="59eb2339e00fe00b2bf95551d653d605"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Edit FullName" time="43.254" classname="Test Cases/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-28 21:04:39 - [TEST_CASE][PASSED] - Test Cases/Edit FullName: Test Cases/Edit FullName
+
+2021-05-28 21:04:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 21:04:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 21:04:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 21:04:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 21:04:43 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signin"): Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:04:47 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:04:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:04:57 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:04:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:04:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' is clicked on
+
+2021-05-28 21:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' is clicked on
+
+2021-05-28 21:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-28 21:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-28 21:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-28 21:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-28 21:05:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-28 21:05:19 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-28 21:05:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-28 21:05:20 - [MESSAGE][PASSED] - Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-28 21:05:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-28 21:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-28 21:05:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-28 21:05:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-28 21:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-28 21:05:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-28 21:05:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit FullName" time="40.074" classname="Test Cases/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-28 21:05:22 - [TEST_CASE][PASSED] - Test Cases/Edit FullName: Test Cases/Edit FullName
+
+2021-05-28 21:05:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 21:05:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 21:05:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 21:05:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 21:05:24 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signin"): Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:05:34 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:05:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'DangUyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:05:44 - [MESSAGE][PASSED] - Text 'DangUyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:05:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:05:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' is clicked on
+
+2021-05-28 21:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' is clicked on
+
+2021-05-28 21:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-28 21:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-28 21:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-28 21:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-28 21:05:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-28 21:05:58 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-28 21:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-28 21:05:59 - [MESSAGE][PASSED] - Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-28 21:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-28 21:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-28 21:05:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-28 21:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-28 21:06:02 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-28 21:06:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-28 21:06:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit FullName" time="65.331" classname="Test Cases/Edit FullName" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 21:06:02 - [TEST_CASE][FAILED] - Test Cases/Edit FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 21:06:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 21:06:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 21:06:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 21:06:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 21:06:04 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signin"): Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:06:09 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:06:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'testing1' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:06:30 - [MESSAGE][PASSED] - Text 'testing1' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:06:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:06:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:06:31 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span")): Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622208952441.run(Script1622208952441.groovy:32)
+	... 13 more
+)
+
+2021-05-28 21:07:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headerInfo']/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:07:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'. Try using Self-healing.
+
+2021-05-28 21:07:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='headerInfo']/button/span'.
+
+2021-05-28 21:07:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='@danguyen'])[1]/following::span[1]'.
+
+2021-05-28 21:07:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Fit.hcmus'])[2]/following::span[1]'.
+
+2021-05-28 21:07:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='More Unreads'])[1]/preceding::span[1]'.
+
+2021-05-28 21:07:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='More Unreads'])[2]/preceding::span[3]'.
+
+2021-05-28 21:07:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]/div/div/div[2]/div/div/button/span'.
+
+2021-05-28 21:07:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("headerInfo")/button[@class="style--none sidebar-header-dropdown__icon"]/span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:07:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: button.style--none.sidebar-header-dropdown__icon > span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:07:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622208952441.run(Script1622208952441.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423\\1622210828070.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 21:06:02 - [TEST_CASE][FAILED] - Test Cases/Edit FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit FullName" time="90.41" classname="Test Cases/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-28 21:07:08 - [TEST_CASE][PASSED] - Test Cases/Edit FullName: Test Cases/Edit FullName
+
+2021-05-28 21:07:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 21:07:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 21:07:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 21:07:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 21:07:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 21:07:10 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signin"): Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:07:35 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:07:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'testing2' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:08:01 - [MESSAGE][PASSED] - Text 'testing2' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:08:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:08:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' is clicked on
+
+2021-05-28 21:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' is clicked on
+
+2021-05-28 21:08:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-28 21:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-28 21:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-28 21:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-28 21:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Phuc' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-28 21:08:34 - [MESSAGE][PASSED] - Text 'Phuc' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-28 21:08:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Huynh' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-28 21:08:35 - [MESSAGE][PASSED] - Text 'Huynh' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-28 21:08:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-28 21:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-28 21:08:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-28 21:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-28 21:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-28 21:08:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-28 21:08:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit FullName" time="70.914" classname="Test Cases/Edit FullName" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 21:08:38 - [TEST_CASE][FAILED] - Test Cases/Edit FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 21:08:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 21:08:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 21:08:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 21:08:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 21:08:40 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signin"): Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:08:54 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'testing3' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:09:13 - [MESSAGE][PASSED] - Text 'testing3' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:09:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:09:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:09:14 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span")): Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622208952441.run(Script1622208952441.groovy:32)
+	... 13 more
+)
+
+2021-05-28 21:09:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headerInfo']/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:09:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'. Try using Self-healing.
+
+2021-05-28 21:09:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='headerInfo']/button/span'.
+
+2021-05-28 21:09:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='@danguyen'])[1]/following::span[1]'.
+
+2021-05-28 21:09:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Fit.hcmus'])[2]/following::span[1]'.
+
+2021-05-28 21:09:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='More Unreads'])[1]/preceding::span[1]'.
+
+2021-05-28 21:09:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='More Unreads'])[2]/preceding::span[3]'.
+
+2021-05-28 21:09:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]/div/div/div[2]/div/div/button/span'.
+
+2021-05-28 21:09:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("headerInfo")/button[@class="style--none sidebar-header-dropdown__icon"]/span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:09:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: button.style--none.sidebar-header-dropdown__icon > span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:09:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622208952441.run(Script1622208952441.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423\\1622210989559.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 21:08:38 - [TEST_CASE][FAILED] - Test Cases/Edit FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit FullName" time="115.427" classname="Test Cases/Edit FullName" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-28 21:09:49 - [TEST_CASE][FAILED] - Test Cases/Edit FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-28 21:09:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-28 21:09:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 21:09:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-28 21:09:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 21:09:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-28 21:09:51 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signin"): Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:10:42 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signin' successfully
+
+2021-05-28 21:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'Vo_Thanh_Phong' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:11:08 - [MESSAGE][PASSED] - Text 'Vo_Thanh_Phong' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-28 21:11:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:11:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-28 21:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-28 21:11:09 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span")): Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622208952441.run(Script1622208952441.groovy:32)
+	... 13 more
+)
+
+2021-05-28 21:11:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headerInfo']/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:11:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'. Try using Self-healing.
+
+2021-05-28 21:11:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='headerInfo']/button/span'.
+
+2021-05-28 21:11:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='@danguyen'])[1]/following::span[1]'.
+
+2021-05-28 21:11:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Fit.hcmus'])[2]/following::span[1]'.
+
+2021-05-28 21:11:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='More Unreads'])[1]/preceding::span[1]'.
+
+2021-05-28 21:11:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='More Unreads'])[2]/preceding::span[3]'.
+
+2021-05-28 21:11:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]/div/div/div[2]/div/div/button/span'.
+
+2021-05-28 21:11:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("headerInfo")/button[@class="style--none sidebar-header-dropdown__icon"]/span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:11:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: button.style--none.sidebar-header-dropdown__icon > span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-28 21:11:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622208952441.run(Script1622208952441.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Mattermost\\Reports\\20210528_210423\\Edit_FullName\\20210528_210423\\1622211105017.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-28 21:09:49 - [TEST_CASE][FAILED] - Test Cases/Edit FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-28 21:04:38 - [TEST_SUITE][FAILED] - Edit_FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-05-28 21:04:38 - [TEST_SUITE][FAILED] - Edit_FullName: Test Cases/Edit FullName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit FullName.run(Edit FullName:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622210663813.run(TempTestSuite1622210663813.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span' located by '//div[@id='headerInfo']/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
