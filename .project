@@ -215,6 +215,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1622268765206</id>
 			<name></name>
 			<type>10</type>
@@ -315,6 +316,18 @@
 		</filter>
 		<filter>
 			<id>1622276929218</id>
+=======
+			<id>1622269299965</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1622269300025</id>
+>>>>>>> branch 'main' of https://github.com/mattermost2905/mattermost-autotest.git
 			<name></name>
 			<type>6</type>
 			<matcher>

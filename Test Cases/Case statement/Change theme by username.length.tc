@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change theme by username.length</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4586045-20ef-4d9e-8791-9b3280cd04ee</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff0b8b08-6fb6-4068-ae35-3600b893d6fc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da377323-5973-4759-8ff0-4a6ea4fb19f7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
