@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>QK_Log in</name>
+   <name>Choose search options</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f38b56b7-5558-412d-adcd-9c18608adb81</testCaseGuid>
+   <testCaseGuid>570a4284-fb8b-4319-a5d4-5851426aa6b6</testCaseGuid>
 </TestCaseEntity>

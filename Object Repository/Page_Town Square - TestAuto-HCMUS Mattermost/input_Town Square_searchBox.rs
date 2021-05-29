@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Town Square_searchBox</name>
    <tag></tag>
-   <elementGuidId>364453c5-22ab-49c2-ba66-3efb621eef25</elementGuidId>
+   <elementGuidId>beaa7fd4-1b82-4ddf-98fc-f95fc7d86102</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -31,7 +31,7 @@
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -73,14 +73,14 @@
       <value>Search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -94,7 +94,7 @@
       <value>id(&quot;searchBox&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -112,6 +112,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//div[4]/div/div[2]/form/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

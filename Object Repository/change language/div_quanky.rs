@@ -3,15 +3,15 @@
    <description></description>
    <name>div_quanky</name>
    <tag></tag>
-   <elementGuidId>f8f4acc0-f3ee-475a-bfdc-eb506ae2a851</elementGuidId>
+   <elementGuidId>be3c693d-6a91-45cd-8dca-0f0dc46d28ea</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='search-autocomplete__popover']/div[2]/div[6]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.search-autocomplete__item.selected.a11y--focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='search-autocomplete__popover']/div[2]/div[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -3,7 +3,7 @@
    <description></description>
    <name>li_InMessages in a channel</name>
    <tag></tag>
-   <elementGuidId>73ac3882-1714-40d9-8fe0-e18e0c20dd2f</elementGuidId>
+   <elementGuidId>f50c71e0-35c5-4df9-b840-5b914ff0e81d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

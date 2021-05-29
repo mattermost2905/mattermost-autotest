@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search/input_Town Square_searchBox",
+      "brokenLocator": "//input[@id\u003d\u0027searchBox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Search/input_Town Square_searchBox_position.png"
     }
   ]
 }

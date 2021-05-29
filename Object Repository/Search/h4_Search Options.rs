@@ -6,12 +6,12 @@
    <elementGuidId>30932e9b-f1a0-4185-9176-e61891bfd2b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='searchbar-help-popup']/div[2]/h4</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h4.search-hint__title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='searchbar-help-popup']/div[2]/h4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +31,7 @@
       <value>search-hint__title</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>id(&quot;searchbar-help-popup&quot;)/div[@class=&quot;popover-content&quot;]/h4[@class=&quot;search-hint__title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

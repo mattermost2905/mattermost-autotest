@@ -3,7 +3,7 @@
    <description></description>
    <name>div_enterLanguage</name>
    <tag></tag>
-   <elementGuidId>c72b9e60-3e10-441e-8c13-07dc32b4b716</elementGuidId>
+   <elementGuidId>f05f96fb-1a57-4c6a-b1f3-8fabba2d8894</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

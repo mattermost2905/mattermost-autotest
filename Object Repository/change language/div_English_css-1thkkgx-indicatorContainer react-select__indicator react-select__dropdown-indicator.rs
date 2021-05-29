@@ -3,7 +3,7 @@
    <description></description>
    <name>div_English_css-1thkkgx-indicatorContainer react-select__indicator react-select__dropdown-indicator</name>
    <tag></tag>
-   <elementGuidId>705be1ea-2587-42b0-9d1f-c144a6298fb2</elementGuidId>
+   <elementGuidId>8a543190-cb76-48d5-bc19-a4d1bd147eb8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

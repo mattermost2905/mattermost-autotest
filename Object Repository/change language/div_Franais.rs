@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Franais</name>
    <tag></tag>
-   <elementGuidId>c4086af5-ca4f-4358-99bc-ddb1dcdfe6f0</elementGuidId>
+   <elementGuidId>2b372e58-563a-43a8-945c-df22efbcf6f7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

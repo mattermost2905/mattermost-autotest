@@ -24,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value>id(&quot;search-autocomplete__popover&quot;)/div[@class=&quot;popover-content&quot;]/div[@class=&quot;search-autocomplete__item selected a11y--focused&quot;]/div[@class=&quot;mention--align ml-3&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

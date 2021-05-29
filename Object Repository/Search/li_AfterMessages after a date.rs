@@ -31,7 +31,7 @@
       <value>search-hint__suggestions-list__option highlighted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>id(&quot;searchbar-help-popup&quot;)/div[@class=&quot;popover-content&quot;]/ul[@class=&quot;search-hint__suggestions-list&quot;]/li[@class=&quot;search-hint__suggestions-list__option highlighted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
