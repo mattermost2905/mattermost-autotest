@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Function</description>
+   <name>Sign-In-Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c379a9c2-70cb-4271-8320-598befd9fa9d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae462a75-555b-49e9-b415-c25da7c92d83</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>197f3071-e2d1-4d39-82b8-16c7d553602d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

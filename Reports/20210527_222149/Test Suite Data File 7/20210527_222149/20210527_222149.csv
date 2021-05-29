@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Data File 7,Chrome 90.0.4430.212,,,2021-05-27 22:22:22,2021-05-27 22:25:06,2m - 44.738s,FAILED
+,,,,,,,
+Test Cases/Test case 6,Chrome 90.0.4430.212,Login Function,,2021-05-27 22:22:23,2021-05-27 22:23:16,52.609s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-27 22:22:24,2021-05-27 22:22:27,3.087s,PASSED
+"navigateToUrl(""https://autotest-mattermost.herokuapp.com/signup_email?id=8ksybr7jspyojqhnmouc6btkar&fbclid=IwAR36wz1CcD3pB3L0wJAJrwxf-6UcO32MoK6CLb6avqnC3X6YZt8HYUsKAe4"")",Chrome 90.0.4430.212,,,2021-05-27 22:22:27,2021-05-27 22:22:51,23.557s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Click here to sign in""))",Chrome 90.0.4430.212,,,2021-05-27 22:22:51,2021-05-27 22:23:13,22.586s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), Username)",Chrome 90.0.4430.212,,,2021-05-27 22:23:13,2021-05-27 22:23:15,2.243s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), Password)",Chrome 90.0.4430.212,,,2021-05-27 22:23:15,2021-05-27 22:23:16,0.311s,FAILED
+,,,,,,,
+Test Cases/Test case 6,Chrome 90.0.4430.212,Login Function,,2021-05-27 22:23:16,2021-05-27 22:24:24,1m - 7.931s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-27 22:23:16,2021-05-27 22:23:18,2.009s,PASSED
+"navigateToUrl(""https://autotest-mattermost.herokuapp.com/signup_email?id=8ksybr7jspyojqhnmouc6btkar&fbclid=IwAR36wz1CcD3pB3L0wJAJrwxf-6UcO32MoK6CLb6avqnC3X6YZt8HYUsKAe4"")",Chrome 90.0.4430.212,,,2021-05-27 22:23:18,2021-05-27 22:24:23,1m - 5.598s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Click here to sign in""))",Chrome 90.0.4430.212,,,2021-05-27 22:24:23,2021-05-27 22:24:24,0.307s,FAILED
+,,,,,,,
+Test Cases/Test case 6,Chrome 90.0.4430.212,Login Function,,2021-05-27 22:24:24,2021-05-27 22:25:06,42.581s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-27 22:24:24,2021-05-27 22:24:25,1.785s,PASSED
+"navigateToUrl(""https://autotest-mattermost.herokuapp.com/signup_email?id=8ksybr7jspyojqhnmouc6btkar&fbclid=IwAR36wz1CcD3pB3L0wJAJrwxf-6UcO32MoK6CLb6avqnC3X6YZt8HYUsKAe4"")",Chrome 90.0.4430.212,,,2021-05-27 22:24:25,2021-05-27 22:24:42,16.961s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Click here to sign in""))",Chrome 90.0.4430.212,,,2021-05-27 22:24:42,2021-05-27 22:24:59,16.353s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), Username)",Chrome 90.0.4430.212,,,2021-05-27 22:24:59,2021-05-27 22:25:06,7.022s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), Password)",Chrome 90.0.4430.212,,,2021-05-27 22:25:06,2021-05-27 22:25:06,0.451s,FAILED

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign-Up-Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0b48ddb-f26f-41e4-8092-cac80d05fe8c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43917421-7f7b-4c57-9e74-abd78298fa2b</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>af28ace1-9e18-4e27-8040-1bc4a9a15b61</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b62b15b-93f9-4a17-b76c-0937f81aeaa7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

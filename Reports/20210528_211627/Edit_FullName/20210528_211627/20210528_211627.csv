@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit_FullName,Chrome 90.0.4430.212,,,2021-05-28 21:16:49,2021-05-28 21:24:26,7m - 36.632s,FAILED
+,,,,,,,
+Test Cases/Edit FullName,Chrome 90.0.4430.212,,,2021-05-28 21:16:51,2021-05-28 21:17:15,24.336s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 21:16:51,2021-05-28 21:16:54,2.344s,PASSED
+"navigateToUrl(""https://mattermost-autotest.herokuapp.com/signin"")",Chrome 90.0.4430.212,,,2021-05-28 21:16:54,2021-05-28 21:16:57,3.807s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b""), username)",Chrome 90.0.4430.212,,,2021-05-28 21:16:57,2021-05-28 21:17:04,6.212s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6""), password)",Chrome 90.0.4430.212,,,2021-05-28 21:17:04,2021-05-28 21:17:04,0.600s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:04,2021-05-28 21:17:05,0.554s,PASSED
+"if (findTestObject(""Edit Fullname/Page_Mattermost/span_Back to Mattermost""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:05,2021-05-28 21:17:08,3.113s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:08,2021-05-28 21:17:09,0.621s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:09,2021-05-28 21:17:10,1.882s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:10,2021-05-28 21:17:11,0.593s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName""), firstName)",Chrome 90.0.4430.212,,,2021-05-28 21:17:11,2021-05-28 21:17:12,0.868s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName""), lastName)",Chrome 90.0.4430.212,,,2021-05-28 21:17:12,2021-05-28 21:17:13,1.493s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:13,2021-05-28 21:17:14,0.433s,PASSED
+"verifyElementPresent(findTestObject(""Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings""), 0)",Chrome 90.0.4430.212,,,2021-05-28 21:17:14,2021-05-28 21:17:14,0.479s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-28 21:17:14,2021-05-28 21:17:15,0.796s,PASSED
+,,,,,,,
+Test Cases/Edit FullName,Chrome 90.0.4430.212,,,2021-05-28 21:17:15,2021-05-28 21:17:39,23.408s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 21:17:15,2021-05-28 21:17:16,1.266s,PASSED
+"navigateToUrl(""https://mattermost-autotest.herokuapp.com/signin"")",Chrome 90.0.4430.212,,,2021-05-28 21:17:16,2021-05-28 21:17:21,4.357s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b""), username)",Chrome 90.0.4430.212,,,2021-05-28 21:17:21,2021-05-28 21:17:27,6.511s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6""), password)",Chrome 90.0.4430.212,,,2021-05-28 21:17:27,2021-05-28 21:17:28,0.564s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:28,2021-05-28 21:17:28,0.500s,PASSED
+"if (findTestObject(""Edit Fullname/Page_Mattermost/span_Back to Mattermost""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:28,2021-05-28 21:17:32,3.217s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:32,2021-05-28 21:17:33,1.684s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:33,2021-05-28 21:17:34,0.560s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:34,2021-05-28 21:17:34,0.604s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName""), firstName)",Chrome 90.0.4430.212,,,2021-05-28 21:17:34,2021-05-28 21:17:35,0.903s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName""), lastName)",Chrome 90.0.4430.212,,,2021-05-28 21:17:35,2021-05-28 21:17:37,1.692s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save""))",Chrome 90.0.4430.212,,,2021-05-28 21:17:37,2021-05-28 21:17:37,0.382s,PASSED
+"verifyElementPresent(findTestObject(""Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings""), 0)",Chrome 90.0.4430.212,,,2021-05-28 21:17:37,2021-05-28 21:17:38,0.454s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-28 21:17:38,2021-05-28 21:17:39,0.697s,PASSED
+,,,,,,,
+Test Cases/Edit FullName,Chrome 90.0.4430.212,,,2021-05-28 21:17:39,2021-05-28 21:19:47,2m - 8.666s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 21:17:39,2021-05-28 21:17:40,1.193s,PASSED
+"navigateToUrl(""https://mattermost-autotest.herokuapp.com/signin"")",Chrome 90.0.4430.212,,,2021-05-28 21:17:40,2021-05-28 21:18:31,51.569s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b""), username)",Chrome 90.0.4430.212,,,2021-05-28 21:18:31,2021-05-28 21:18:38,6.661s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6""), password)",Chrome 90.0.4430.212,,,2021-05-28 21:18:38,2021-05-28 21:18:39,0.582s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-28 21:18:39,2021-05-28 21:18:39,0.532s,PASSED
+"if (findTestObject(""Edit Fullname/Page_Mattermost/span_Back to Mattermost""))",Chrome 90.0.4430.212,,,2021-05-28 21:18:39,2021-05-28 21:19:12,32.946s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span""))",Chrome 90.0.4430.212,,,2021-05-28 21:19:12,2021-05-28 21:19:47,35.170s,FAILED
+,,,,,,,
+Test Cases/Edit FullName,Chrome 90.0.4430.212,,,2021-05-28 21:19:47,2021-05-28 21:21:20,1m - 32.817s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 21:19:47,2021-05-28 21:19:49,1.942s,PASSED
+"navigateToUrl(""https://mattermost-autotest.herokuapp.com/signin"")",Chrome 90.0.4430.212,,,2021-05-28 21:19:49,2021-05-28 21:20:49,59.247s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b""), username)",Chrome 90.0.4430.212,,,2021-05-28 21:20:49,2021-05-28 21:21:02,13.291s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6""), password)",Chrome 90.0.4430.212,,,2021-05-28 21:21:02,2021-05-28 21:21:02,0.535s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:02,2021-05-28 21:21:03,0.549s,PASSED
+"if (findTestObject(""Edit Fullname/Page_Mattermost/span_Back to Mattermost""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:03,2021-05-28 21:21:06,3.166s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:06,2021-05-28 21:21:08,1.611s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:08,2021-05-28 21:21:09,0.828s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:09,2021-05-28 21:21:12,3.130s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName""), firstName)",Chrome 90.0.4430.212,,,2021-05-28 21:21:12,2021-05-28 21:21:18,6.231s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName""), lastName)",Chrome 90.0.4430.212,,,2021-05-28 21:21:18,2021-05-28 21:21:19,0.731s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:19,2021-05-28 21:21:19,0.390s,PASSED
+"verifyElementPresent(findTestObject(""Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings""), 0)",Chrome 90.0.4430.212,,,2021-05-28 21:21:19,2021-05-28 21:21:19,0.457s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-28 21:21:19,2021-05-28 21:21:20,0.698s,PASSED
+,,,,,,,
+Test Cases/Edit FullName,Chrome 90.0.4430.212,,,2021-05-28 21:21:20,2021-05-28 21:22:48,1m - 27.835s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 21:21:20,2021-05-28 21:21:21,1.204s,PASSED
+"navigateToUrl(""https://mattermost-autotest.herokuapp.com/signin"")",Chrome 90.0.4430.212,,,2021-05-28 21:21:21,2021-05-28 21:21:30,8.146s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b""), username)",Chrome 90.0.4430.212,,,2021-05-28 21:21:30,2021-05-28 21:21:40,10.436s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6""), password)",Chrome 90.0.4430.212,,,2021-05-28 21:21:40,2021-05-28 21:21:41,0.546s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:41,2021-05-28 21:21:41,0.553s,PASSED
+"if (findTestObject(""Edit Fullname/Page_Mattermost/span_Back to Mattermost""))",Chrome 90.0.4430.212,,,2021-05-28 21:21:41,2021-05-28 21:22:13,31.707s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span""))",Chrome 90.0.4430.212,,,2021-05-28 21:22:13,2021-05-28 21:22:48,35.227s,FAILED
+,,,,,,,
+Test Cases/Edit FullName,Chrome 90.0.4430.212,,,2021-05-28 21:22:48,2021-05-28 21:24:26,1m - 37.989s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 21:22:48,2021-05-28 21:22:50,1.976s,PASSED
+"navigateToUrl(""https://mattermost-autotest.herokuapp.com/signin"")",Chrome 90.0.4430.212,,,2021-05-28 21:22:50,2021-05-28 21:22:58,8.395s,PASSED
+"setText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b""), username)",Chrome 90.0.4430.212,,,2021-05-28 21:22:58,2021-05-28 21:23:10,11.296s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6""), password)",Chrome 90.0.4430.212,,,2021-05-28 21:23:10,2021-05-28 21:23:10,0.532s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-28 21:23:10,2021-05-28 21:23:11,0.510s,PASSED
+"if (findTestObject(""Edit Fullname/Page_Mattermost/span_Back to Mattermost""))",Chrome 90.0.4430.212,,,2021-05-28 21:23:11,2021-05-28 21:23:43,31.682s,PASSED
+"click(findTestObject(""Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span""))",Chrome 90.0.4430.212,,,2021-05-28 21:23:43,2021-05-28 21:24:26,43.588s,FAILED

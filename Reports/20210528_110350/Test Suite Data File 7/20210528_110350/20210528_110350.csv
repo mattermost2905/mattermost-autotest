@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Data File 7,Chrome 90.0.4430.212,,,2021-05-28 11:04:04,2021-05-28 11:07:29,3m - 25.264s,FAILED
+,,,,,,,
+Test Cases/Data Type/Sign-In-Account,Chrome 90.0.4430.212,Login Function,,2021-05-28 11:04:05,2021-05-28 11:06:08,2m - 2.673s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 11:04:06,2021-05-28 11:04:08,2.371s,PASSED
+"navigateToUrl(""https://autotest-mattermost.herokuapp.com/signup_email?id=8ksybr7jspyojqhnmouc6btkar&fbclid=IwAR36wz1CcD3pB3L0wJAJrwxf-6UcO32MoK6CLb6avqnC3X6YZt8HYUsKAe4"")",Chrome 90.0.4430.212,,,2021-05-28 11:04:08,2021-05-28 11:04:11,2.631s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), Username)",Chrome 90.0.4430.212,,,2021-05-28 11:04:11,2021-05-28 11:06:08,1m - 57.163s,FAILED
+,,,,,,,
+Test Cases/Data Type/Sign-In-Account,Chrome 90.0.4430.212,Login Function,,2021-05-28 11:06:08,2021-05-28 11:06:48,39.847s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 11:06:08,2021-05-28 11:06:10,1.951s,PASSED
+"navigateToUrl(""https://autotest-mattermost.herokuapp.com/signup_email?id=8ksybr7jspyojqhnmouc6btkar&fbclid=IwAR36wz1CcD3pB3L0wJAJrwxf-6UcO32MoK6CLb6avqnC3X6YZt8HYUsKAe4"")",Chrome 90.0.4430.212,,,2021-05-28 11:06:10,2021-05-28 11:06:13,3.078s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), Username)",Chrome 90.0.4430.212,,,2021-05-28 11:06:13,2021-05-28 11:06:48,34.806s,FAILED
+,,,,,,,
+Test Cases/Data Type/Sign-In-Account,Chrome 90.0.4430.212,Login Function,,2021-05-28 11:06:48,2021-05-28 11:07:29,41.442s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-28 11:06:48,2021-05-28 11:06:50,1.900s,PASSED
+"navigateToUrl(""https://autotest-mattermost.herokuapp.com/signup_email?id=8ksybr7jspyojqhnmouc6btkar&fbclid=IwAR36wz1CcD3pB3L0wJAJrwxf-6UcO32MoK6CLb6avqnC3X6YZt8HYUsKAe4"")",Chrome 90.0.4430.212,,,2021-05-28 11:06:50,2021-05-28 11:06:54,3.983s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), Username)",Chrome 90.0.4430.212,,,2021-05-28 11:06:54,2021-05-28 11:07:29,35.548s,FAILED
