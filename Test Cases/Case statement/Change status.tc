@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d87061bc-e136-4c4f-91a9-d077294053ef</testCaseGuid>
+   <variable>
+      <defaultValue>['Do Not Disturb', 'Away', 'Offline', 'Online']</defaultValue>
+      <description></description>
+      <id>c16f2ae8-a307-49d5-a30a-ae3ec6c89ea3</id>
+      <masked>false</masked>
+      <name>listStatus</name>
+   </variable>
+</TestCaseEntity>

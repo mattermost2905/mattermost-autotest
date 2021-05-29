@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Theme</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d9683e7-cd33-4e7b-8b66-db3acef54149</testCaseGuid>
+   <variable>
+      <defaultValue>'mattermost dark\r\n'</defaultValue>
+      <description></description>
+      <id>14b8990c-e708-4d68-acaa-af7f2d5aa92a</id>
+      <masked>false</masked>
+      <name>theme</name>
+   </variable>
+</TestCaseEntity>
