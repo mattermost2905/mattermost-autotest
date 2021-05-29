@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Turn off Channel Switcher if username.length greater than 5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a76eac8a-e471-4667-acb1-5955f5089638</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b11344bc-b91e-4e19-995f-9f5d27f5ec9f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44427acb-848e-4b84-9b9d-e2d0fb468f18</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

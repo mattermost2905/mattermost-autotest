@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Dark Theme if username.length greater 5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>767dc283-98b3-44b8-87b5-0552c3ac5922</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>400b2bc9-d9b0-4d0d-b5a0-0b49c5885204</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6712e9e3-fdf6-41ee-b89c-cbf8b0a6aec2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
