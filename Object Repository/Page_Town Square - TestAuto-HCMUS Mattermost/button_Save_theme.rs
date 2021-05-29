@@ -6,12 +6,12 @@
    <elementGuidId>7027c002-37af-4c9d-a17f-aa5f39699565</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='saveSetting']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#saveSetting</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='saveSetting']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

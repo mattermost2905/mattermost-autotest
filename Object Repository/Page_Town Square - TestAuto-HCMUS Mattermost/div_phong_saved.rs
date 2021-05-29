@@ -3,15 +3,15 @@
    <description></description>
    <name>div_phong_saved</name>
    <tag></tag>
-   <elementGuidId>36efb5cf-5124-4ff9-bc7e-cd256d5d6e5c</elementGuidId>
+   <elementGuidId>1c754c2c-aa4b-4c0b-8492-dcaccadaeede</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='post_fmrd9h1k7iyw7n6anqd8dfhrcy']/div</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.post-pre-header</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='post_fmrd9h1k7iyw7n6anqd8dfhrcy']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -19,11 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/login')
-
-WebUI.setText(findTestObject('input_All team communication in one place s_2f2733'), 'username')
-
-WebUI.setText(findTestObject('input_All team communication in one place s_703ef5'), 'password')
+WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 int length = username.length()
 

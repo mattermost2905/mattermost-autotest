@@ -6,12 +6,12 @@
    <elementGuidId>739697a2-3227-41b0-befb-d49abc582823</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='logout']/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#logout > button.style--none</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='logout']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

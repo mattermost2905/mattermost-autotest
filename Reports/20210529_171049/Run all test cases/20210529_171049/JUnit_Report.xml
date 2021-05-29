@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="617.216" tests="25" failures="0" errors="0">
+   <testsuite name="Run all test cases" tests="25" failures="0" errors="0" time="617.216" skipped="0" timestamp="2021-05-29 17:10:55" hostname="PhongVT - DESKTOP-KG78QEI.mshome.net" id="Test Suites/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PhongVT\\git\\mattermost-autotest\\Reports\\20210529_171049\\Run all test cases\\20210529_171049"/>
+         <property name="logFiles" value="C:\\Users\\PhongVT\\git\\mattermost-autotest\\Reports\\20210529_171049\\Run all test cases\\20210529_171049\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PhongVT - DESKTOP-KG78QEI.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="192.168.128.1"/>
+         <property name="sessionId" value="483e2b3f5baf181ffaa5ca8ab9c61904"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Data Type/Sign-In-Account" time="17.028" classname="Test Cases/Data Type/Sign-In-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:10:57 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-In-Account: Test Cases/Data Type/Sign-In-Account
+
+2021-05-29 17:10:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:10:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:10:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:11:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:11:00 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:03 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:03 - [TEST_STEP][PASSED] - setText(findTestObject("Sign_In/input_All team communication in one place, _dcc84b"), Username): Text 'Uyen' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:08 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign_In/input_All team communication in one place, _a3edc6"), Password): Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Sign_In/span_Sign in")): Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:11:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:11:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-In-Account" time="14.992" classname="Test Cases/Data Type/Sign-In-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:11:14 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-In-Account: Test Cases/Data Type/Sign-In-Account
+
+2021-05-29 17:11:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:11:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:11:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:11:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:11:15 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:19 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Sign_In/input_All team communication in one place, _dcc84b"), Username): Text 'DangUyen' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:24 - [MESSAGE][PASSED] - Text 'DangUyen' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign_In/input_All team communication in one place, _a3edc6"), Password): Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Sign_In/span_Sign in")): Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:11:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-In-Account" time="14.972" classname="Test Cases/Data Type/Sign-In-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:11:29 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-In-Account: Test Cases/Data Type/Sign-In-Account
+
+2021-05-29 17:11:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:11:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:11:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:11:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:11:30 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:33 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("Sign_In/input_All team communication in one place, _dcc84b"), Username): Text 'Phong' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:39 - [MESSAGE][PASSED] - Text 'Phong' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign_In/input_All team communication in one place, _a3edc6"), Password): Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Sign_In/span_Sign in")): Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:11:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-In-Account" time="14.418" classname="Test Cases/Data Type/Sign-In-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:11:44 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-In-Account: Test Cases/Data Type/Sign-In-Account
+
+2021-05-29 17:11:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:11:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:11:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:11:45 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:48 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("Sign_In/input_All team communication in one place, _dcc84b"), Username): Text 'testing2' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:53 - [MESSAGE][PASSED] - Text 'testing2' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:11:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign_In/input_All team communication in one place, _a3edc6"), Password): Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Sign_In/span_Sign in")): Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:11:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:11:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:11:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-In-Account" time="14.644" classname="Test Cases/Data Type/Sign-In-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:11:58 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-In-Account: Test Cases/Data Type/Sign-In-Account
+
+2021-05-29 17:11:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:11:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:11:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:12:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:12:00 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:12:04 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:12:04 - [TEST_STEP][PASSED] - setText(findTestObject("Sign_In/input_All team communication in one place, _dcc84b"), Username): Text 'testing3' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:12:08 - [MESSAGE][PASSED] - Text 'testing3' is set on object 'Object Repository/Sign_In/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:12:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign_In/input_All team communication in one place, _a3edc6"), Password): Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:12:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign_In/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:12:09 - [TEST_STEP][PASSED] - click(findTestObject("Sign_In/span_Sign in")): Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign_In/span_Sign in' is clicked on
+
+2021-05-29 17:12:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:12:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:12:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:12:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:12:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-Up-Account" time="17.097" classname="Test Cases/Data Type/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:12:13 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-Up-Account: Test Cases/Data Type/Sign-Up-Account
+
+2021-05-29 17:12:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:12:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:12:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:12:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:12:15 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:12:18 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:12:18 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_concat(What, , s your email address)_email"), EmailAddress): Text 'a@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:12:24 - [MESSAGE][PASSED] - Text 'a@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_Choose your username_name"), Username): Text 'abd' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:12:24 - [MESSAGE][PASSED] - Text 'abd' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:12:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:12:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up/span_Create Account")): Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:12:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:12:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:12:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:12:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-Up-Account" time="14.574" classname="Test Cases/Data Type/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:12:30 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-Up-Account: Test Cases/Data Type/Sign-Up-Account
+
+2021-05-29 17:12:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:12:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:12:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:12:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:12:31 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:12:34 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:12:34 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_concat(What, , s your email address)_email"), EmailAddress): Text 'b@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:12:38 - [MESSAGE][PASSED] - Text 'b@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:12:38 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_Choose your username_name"), Username): Text 'abc' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:12:39 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:12:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:12:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up/span_Create Account")): Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:12:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:12:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:12:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:12:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-Up-Account" time="16.618" classname="Test Cases/Data Type/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:12:45 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-Up-Account: Test Cases/Data Type/Sign-Up-Account
+
+2021-05-29 17:12:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:12:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:12:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:12:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:12:46 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:12:49 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:12:49 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_concat(What, , s your email address)_email"), EmailAddress): Text 'c@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:12:55 - [MESSAGE][PASSED] - Text 'c@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:12:55 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_Choose your username_name"), Username): Text 'testingtest' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:12:55 - [MESSAGE][PASSED] - Text 'testingtest' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:12:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:12:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up/span_Create Account")): Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:12:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:12:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:13:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:13:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-Up-Account" time="17.474" classname="Test Cases/Data Type/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:13:01 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-Up-Account: Test Cases/Data Type/Sign-Up-Account
+
+2021-05-29 17:13:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:13:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:13:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:13:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:13:03 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:13:06 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:13:06 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_concat(What, , s your email address)_email"), EmailAddress): Text 'd@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:13:12 - [MESSAGE][PASSED] - Text 'd@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:13:12 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_Choose your username_name"), Username): Text 'testingteesting' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:13:13 - [MESSAGE][PASSED] - Text 'testingteesting' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:13:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:13:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up/span_Create Account")): Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:13:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:13:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:13:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:13:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-Up-Account" time="16.888" classname="Test Cases/Data Type/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:13:19 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-Up-Account: Test Cases/Data Type/Sign-Up-Account
+
+2021-05-29 17:13:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:13:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:13:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:13:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:13:20 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:13:24 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:13:24 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_concat(What, , s your email address)_email"), EmailAddress): Text 'e@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:13:28 - [MESSAGE][PASSED] - Text 'e@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:13:28 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_Choose your username_name"), Username): Text 'PhongEEEEE' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:13:29 - [MESSAGE][PASSED] - Text 'PhongEEEEE' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:13:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:13:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up/span_Create Account")): Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:13:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:13:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:13:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:13:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Sign-Up-Account" time="15.714" classname="Test Cases/Data Type/Sign-Up-Account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:13:36 - [TEST_CASE][PASSED] - Test Cases/Data Type/Sign-Up-Account: Test Cases/Data Type/Sign-Up-Account
+
+2021-05-29 17:13:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:13:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:13:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:13:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:13:37 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8"): Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:13:40 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/signup_email?id=bjz71s5p83g3ix13eth98bo7aw&fbclid=IwAR3R54HjPAKlm9IYu5u0ofSi_RT75MYITTGlO-0rb3RAByX4NuwHUiV51W8' successfully
+
+2021-05-29 17:13:40 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_concat(What, , s your email address)_email"), EmailAddress): Text 'f@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:13:46 - [MESSAGE][PASSED] - Text 'f@gmail.com' is set on object 'Object Repository/Sign Up/input_concat(What, , s your email address)_email'
+
+2021-05-29 17:13:46 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up/input_Choose your username_name"), Username): Text 'mattermost1234' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:13:46 - [MESSAGE][PASSED] - Text 'mattermost1234' is set on object 'Object Repository/Sign Up/input_Choose your username_name'
+
+2021-05-29 17:13:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up/input_Choose your password_password"), Password): Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:13:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up/input_Choose your password_password'
+
+2021-05-29 17:13:47 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up/span_Create Account")): Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/span_Create Account' is clicked on
+
+2021-05-29 17:13:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce"), 0): Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:13:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:13:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce' is present
+
+2021-05-29 17:13:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:13:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Edit FullName" time="52.592" classname="Test Cases/Data Type/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:13:52 - [TEST_CASE][PASSED] - Test Cases/Data Type/Edit FullName: Test Cases/Data Type/Edit FullName
+
+2021-05-29 17:13:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:13:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:13:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:13:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:13:53 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:13:56 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:14:00 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:14:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:14:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:14:01 - [TEST_STEP][PASSED] - if (findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:14:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-29 17:14:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost'. Try using Self-healing.
+
+2021-05-29 17:14:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/a/span'.
+
+2021-05-29 17:14:38 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Team Not Found'])[1]/following::span[2]'.
+
+2021-05-29 17:14:38 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Back to Mattermost']/parent::*'.
+
+2021-05-29 17:14:38 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//a/span'.
+
+2021-05-29 17:14:39 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/PhongVT/git/mattermost-autotest/Reports/Self-healing/Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost_position.png
+
+2021-05-29 17:14:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' was broken. Propose an alternative one: '//a/span'.
+
+2021-05-29 17:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:14:42 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:14:43 - [MESSAGE][PASSED] - Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:14:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:14:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:14:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Edit FullName" time="47.733" classname="Test Cases/Data Type/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:14:44 - [TEST_CASE][PASSED] - Test Cases/Data Type/Edit FullName: Test Cases/Data Type/Edit FullName
+
+2021-05-29 17:14:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:14:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:14:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:14:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:14:45 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:14:48 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:14:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'DangUyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:14:53 - [MESSAGE][PASSED] - Text 'DangUyen' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:14:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:14:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:14:55 - [TEST_STEP][PASSED] - if (findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:15:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-29 17:15:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost'. Try using Self-healing.
+
+2021-05-29 17:15:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' was broken. Propose an alternative one: '//a/span'.
+
+2021-05-29 17:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:15:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:15:30 - [MESSAGE][PASSED] - Text 'Uyen' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:15:30 - [MESSAGE][PASSED] - Text 'Dang' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:15:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:15:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:15:31 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:15:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:15:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Edit FullName" time="57.063" classname="Test Cases/Data Type/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:15:32 - [TEST_CASE][PASSED] - Test Cases/Data Type/Edit FullName: Test Cases/Data Type/Edit FullName
+
+2021-05-29 17:15:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:15:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:15:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:15:33 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:15:38 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'testing2' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:15:51 - [MESSAGE][PASSED] - Text 'testing2' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:15:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:15:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:15:53 - [TEST_STEP][PASSED] - if (findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:16:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-29 17:16:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost'. Try using Self-healing.
+
+2021-05-29 17:16:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' was broken. Propose an alternative one: '//a/span'.
+
+2021-05-29 17:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:16:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Phuc' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:16:27 - [MESSAGE][PASSED] - Text 'Phuc' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Huynh' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:16:27 - [MESSAGE][PASSED] - Text 'Huynh' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:16:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:16:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:16:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:16:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:16:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Edit FullName" time="47.792" classname="Test Cases/Data Type/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:16:29 - [TEST_CASE][PASSED] - Test Cases/Data Type/Edit FullName: Test Cases/Data Type/Edit FullName
+
+2021-05-29 17:16:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:16:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:16:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:16:30 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:16:34 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'testing3' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:16:39 - [MESSAGE][PASSED] - Text 'testing3' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:16:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:16:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:16:40 - [TEST_STEP][PASSED] - if (findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:17:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-29 17:17:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost'. Try using Self-healing.
+
+2021-05-29 17:17:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' was broken. Propose an alternative one: '//a/span'.
+
+2021-05-29 17:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:17:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Phong ' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:17:15 - [MESSAGE][PASSED] - Text 'Phong ' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Vo' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:17:15 - [MESSAGE][PASSED] - Text 'Vo' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:17:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:17:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:17:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Type/Edit FullName" time="52.653" classname="Test Cases/Data Type/Edit FullName" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:17:17 - [TEST_CASE][PASSED] - Test Cases/Data Type/Edit FullName: Test Cases/Data Type/Edit FullName
+
+2021-05-29 17:17:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:17:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:17:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:17:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:17:18 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:17:23 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:17:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b"), username): Text 'Phong' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:17:30 - [MESSAGE][PASSED] - Text 'Phong' is set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 17:17:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6"), password): Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:17:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 17:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 17:17:33 - [TEST_STEP][PASSED] - if (findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:17:33 - [TEST_STEP][PASSED] - click(findTestObject("Edit Fullname/Page_Mattermost/span_Back to Mattermost")): Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:18:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-29 17:18:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost'. Try using Self-healing.
+
+2021-05-29 17:18:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' was broken. Propose an alternative one: '//a/span'.
+
+2021-05-29 17:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost' is clicked on
+
+2021-05-29 17:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span")): Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - mattermost Mattermost/span' is clicked on
+
+2021-05-29 17:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_Edit' is clicked on
+
+2021-05-29 17:18:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName"), firstName): Text 'Phong ' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:18:07 - [MESSAGE][PASSED] - Text 'Phong ' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_First Name_firstName'
+
+2021-05-29 17:18:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName"), lastName): Text 'Vo' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:18:08 - [MESSAGE][PASSED] - Text 'Vo' is set on object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/input_Last Name_lastName'
+
+2021-05-29 17:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save")): Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/button_Save' is clicked on
+
+2021-05-29 17:18:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings"), 0): Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:18:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:18:09 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Fullname/Page_Town Square - Fit.hcmus Mattermost/span_General Settings' is present
+
+2021-05-29 17:18:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:18:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case statement/Change clock display" time="26.058" classname="Test Cases/Case statement/Change clock display" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:18:10 - [TEST_CASE][PASSED] - Test Cases/Case statement/Change clock display: Test Cases/Case statement/Change clock display
+
+2021-05-29 17:18:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:18:10 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:18:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:18:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:18:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:18:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:18:12 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:18:22 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:18:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:18:26 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:18:27 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:18:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:18:28 - [TEST_STEP][PASSED] - click(findTestObject("change language/button_quanky_style--none sidebar-header-dropdown__icon")): Object: 'Object Repository/change language/button_quanky_style--none sidebar-header-dropdown__icon' is clicked on
+
+2021-05-29 17:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/button_quanky_style--none sidebar-header-dropdown__icon' is clicked on
+
+2021-05-29 17:18:32 - [TEST_STEP][PASSED] - click(findTestObject("change language/span_Account Settings")): Object: 'Object Repository/change language/span_Account Settings' is clicked on
+
+2021-05-29 17:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/span_Account Settings' is clicked on
+
+2021-05-29 17:18:32 - [TEST_STEP][PASSED] - click(findTestObject("change language/button_Display")): Object: 'Object Repository/change language/button_Display' is clicked on
+
+2021-05-29 17:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/button_Display' is clicked on
+
+2021-05-29 17:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Clock/span_Edit")): Object: 'Object Repository/Clock/span_Edit' is clicked on
+
+2021-05-29 17:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Clock/span_Edit' is clicked on
+
+2021-05-29 17:18:33 - [TEST_STEP][PASSED] - time = "24": null
+
+2021-05-29 17:18:33 - [TEST_STEP][PASSED] - switch (time): null
+
+2021-05-29 17:18:33 - [TEST_STEP][PASSED] - case "24":: null
+
+2021-05-29 17:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Clock/label_24-hour clock (example 1600)")): Object: 'Object Repository/Clock/label_24-hour clock (example 1600)' is clicked on
+
+2021-05-29 17:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Clock/label_24-hour clock (example 1600)' is clicked on
+
+2021-05-29 17:18:34 - [TEST_STEP][PASSED] - break: null
+
+2021-05-29 17:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Clock/button_Save")): Object: 'Object Repository/Clock/button_Save' is clicked on
+
+2021-05-29 17:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Clock/button_Save' is clicked on
+
+2021-05-29 17:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Clock/button_Close")): Object: 'Object Repository/Clock/button_Close' is clicked on
+
+2021-05-29 17:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Clock/button_Close' is clicked on
+
+2021-05-29 17:18:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:18:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case statement/Change display name" time="20.313" classname="Test Cases/Case statement/Change display name" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:18:36 - [TEST_CASE][PASSED] - Test Cases/Case statement/Change display name: Test Cases/Case statement/Change display name
+
+2021-05-29 17:18:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:18:36 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:18:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:18:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:18:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:18:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:18:37 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:18:41 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:18:47 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:18:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:18:48 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:18:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:18:49 - [TEST_STEP][PASSED] - click(findTestObject("change language/button_quanky_style--none sidebar-header-dropdown__icon")): Object: 'Object Repository/change language/button_quanky_style--none sidebar-header-dropdown__icon' is clicked on
+
+2021-05-29 17:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/button_quanky_style--none sidebar-header-dropdown__icon' is clicked on
+
+2021-05-29 17:18:52 - [TEST_STEP][PASSED] - click(findTestObject("change language/span_Account Settings")): Object: 'Object Repository/change language/span_Account Settings' is clicked on
+
+2021-05-29 17:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/span_Account Settings' is clicked on
+
+2021-05-29 17:18:53 - [TEST_STEP][PASSED] - click(findTestObject("change language/button_Display")): Object: 'Object Repository/change language/button_Display' is clicked on
+
+2021-05-29 17:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/button_Display' is clicked on
+
+2021-05-29 17:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Display Name/span_Edit")): Object: 'Object Repository/Display Name/span_Edit' is clicked on
+
+2021-05-29 17:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Display Name/span_Edit' is clicked on
+
+2021-05-29 17:18:54 - [TEST_STEP][PASSED] - typeDisplay = "nickname": null
+
+2021-05-29 17:18:54 - [TEST_STEP][PASSED] - switch (typeDisplay): null
+
+2021-05-29 17:18:54 - [TEST_STEP][PASSED] - case "nickname":: null
+
+2021-05-29 17:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Display Name/label_Show nickname if one exists, otherwise show first and last name")): Object: 'Object Repository/Display Name/label_Show nickname if one exists, otherwise show first and last name' is clicked on
+
+2021-05-29 17:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Display Name/label_Show nickname if one exists, otherwise show first and last name' is clicked on
+
+2021-05-29 17:18:54 - [TEST_STEP][PASSED] - break: null
+
+2021-05-29 17:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Display Name/button_Save")): Object: 'Object Repository/Display Name/button_Save' is clicked on
+
+2021-05-29 17:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Display Name/button_Save' is clicked on
+
+2021-05-29 17:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Clock/button_Close")): Object: 'Object Repository/Clock/button_Close' is clicked on
+
+2021-05-29 17:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Clock/button_Close' is clicked on
+
+2021-05-29 17:18:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:18:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case statement/Change Languge" time="19.018" classname="Test Cases/Case statement/Change Languge" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:18:56 - [TEST_CASE][PASSED] - Test Cases/Case statement/Change Languge: Test Cases/Case statement/Change Languge
+
+2021-05-29 17:18:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:18:56 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:18:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:18:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:18:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:18:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:18:58 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:01 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:19:05 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:19:06 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:19:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:19:07 - [TEST_STEP][PASSED] - click(findTestObject("change language/button_quanky_style--none sidebar-header-dropdown__icon")): Object: 'Object Repository/change language/button_quanky_style--none sidebar-header-dropdown__icon' is clicked on
+
+2021-05-29 17:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/button_quanky_style--none sidebar-header-dropdown__icon' is clicked on
+
+2021-05-29 17:19:11 - [TEST_STEP][PASSED] - click(findTestObject("change language/span_Account Settings")): Object: 'Object Repository/change language/span_Account Settings' is clicked on
+
+2021-05-29 17:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/span_Account Settings' is clicked on
+
+2021-05-29 17:19:11 - [TEST_STEP][PASSED] - click(findTestObject("change language/button_Display")): Object: 'Object Repository/change language/button_Display' is clicked on
+
+2021-05-29 17:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/button_Display' is clicked on
+
+2021-05-29 17:19:12 - [TEST_STEP][PASSED] - click(findTestObject("change language/span_Edit")): Object: 'Object Repository/change language/span_Edit' is clicked on
+
+2021-05-29 17:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/span_Edit' is clicked on
+
+2021-05-29 17:19:12 - [TEST_STEP][PASSED] - click(findTestObject("change language/div_English")): Object: 'Object Repository/change language/div_English' is clicked on
+
+2021-05-29 17:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/div_English' is clicked on
+
+2021-05-29 17:19:13 - [TEST_STEP][PASSED] - lang = "English": null
+
+2021-05-29 17:19:13 - [TEST_STEP][PASSED] - switch (lang): null
+
+2021-05-29 17:19:13 - [TEST_STEP][PASSED] - case "English":: null
+
+2021-05-29 17:19:13 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("change language/div_English")): Object: 'Object Repository/change language/div_English' is clicked on
+
+2021-05-29 17:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/div_English' is clicked on
+
+2021-05-29 17:19:13 - [TEST_STEP][PASSED] - break: null
+
+2021-05-29 17:19:13 - [TEST_STEP][PASSED] - click(findTestObject("change language/button_Save")): Object: 'Object Repository/change language/button_Save' is clicked on
+
+2021-05-29 17:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/button_Save' is clicked on
+
+2021-05-29 17:19:14 - [TEST_STEP][PASSED] - click(findTestObject("change language/span_")): Object: 'Object Repository/change language/span_' is clicked on
+
+2021-05-29 17:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/change language/span_' is clicked on
+
+2021-05-29 17:19:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:19:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case statement/Change Theme" time="0.375" classname="Test Cases/Case statement/Change Theme" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:19:15 - [TEST_CASE][PASSED] - Test Cases/Case statement/Change Theme: Test Cases/Case statement/Change Theme
+
+2021-05-29 17:19:15 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case statement/Change theme by username.length" time="20.525" classname="Test Cases/Case statement/Change theme by username.length" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:19:15 - [TEST_CASE][PASSED] - Test Cases/Case statement/Change theme by username.length: Test Cases/Case statement/Change theme by username.length
+
+2021-05-29 17:19:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:19:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:19:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:19:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:19:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:19:17 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:19:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:19:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-29 17:19:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:19:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:19:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:19:19 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:22 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:19:27 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:19:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:19:28 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:19:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:19:28 - [TEST_STEP][PASSED] - username_len = username.length(): null
+
+2021-05-29 17:19:28 - [TEST_STEP][PASSED] - theme = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-05-29 17:19:28 - [TEST_STEP][PASSED] - if (username_len <= 5): null
+
+2021-05-29 17:19:28 - [TEST_STEP][PASSED] - theme = "dark": null
+
+2021-05-29 17:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hotpink Mattermost/btn_hambergerMenu")): Object: 'Object Repository/Page_Town Square - hotpink Mattermost/btn_hambergerMenu' is clicked on
+
+2021-05-29 17:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hotpink Mattermost/btn_hambergerMenu' is clicked on
+
+2021-05-29 17:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello Mattermost/button_Account Settings")): Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello Mattermost/button_Display")): Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Display' is clicked on
+
+2021-05-29 17:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Display' is clicked on
+
+2021-05-29 17:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello Mattermost/button_Edit")): Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Edit' is clicked on
+
+2021-05-29 17:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Edit' is clicked on
+
+2021-05-29 17:19:34 - [TEST_STEP][PASSED] - switch (theme): null
+
+2021-05-29 17:19:34 - [TEST_STEP][PASSED] - case "dark":: null
+
+2021-05-29 17:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello Mattermost/img_Theme Colors_img-responsive")): Object: 'Object Repository/Page_Town Square - hello Mattermost/img_Theme Colors_img-responsive' is clicked on
+
+2021-05-29 17:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello Mattermost/img_Theme Colors_img-responsive' is clicked on
+
+2021-05-29 17:19:34 - [TEST_STEP][PASSED] - break: null
+
+2021-05-29 17:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello Mattermost/button_Save")): Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Save' is clicked on
+
+2021-05-29 17:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello Mattermost/button_Save' is clicked on
+
+2021-05-29 17:19:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:19:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case statement/Choose search options" time="16.944" classname="Test Cases/Case statement/Choose search options" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:19:36 - [TEST_CASE][PASSED] - Test Cases/Case statement/Choose search options: Test Cases/Case statement/Choose search options
+
+2021-05-29 17:19:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:19:36 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:19:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:19:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:19:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:19:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:19:38 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:41 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:19:46 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:19:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:19:47 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:19:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:19:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:19:47 - [TEST_STEP][PASSED] - click(findTestObject("Search/input_Town Square_searchBox")): Object: 'Object Repository/Search/input_Town Square_searchBox' is clicked on
+
+2021-05-29 17:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/input_Town Square_searchBox' is clicked on
+
+2021-05-29 17:19:51 - [TEST_STEP][PASSED] - option = "from": null
+
+2021-05-29 17:19:51 - [TEST_STEP][PASSED] - switch (option): null
+
+2021-05-29 17:19:51 - [TEST_STEP][PASSED] - case "from":: null
+
+2021-05-29 17:19:51 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Search/li_FromMessages from a user"), 0, 0): Object: 'Object Repository/Search/li_FromMessages from a user' is clicked on using offset x=0 and y=0
+
+2021-05-29 17:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/li_FromMessages from a user' is clicked on using offset x=0 and y=0
+
+2021-05-29 17:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Search/span_quanky")): Object: 'Object Repository/Search/span_quanky' is clicked on
+
+2021-05-29 17:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/span_quanky' is clicked on
+
+2021-05-29 17:19:52 - [TEST_STEP][PASSED] - break: null
+
+2021-05-29 17:19:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:19:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case statement/Manage account" time="16.394" classname="Test Cases/Case statement/Manage account" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:19:53 - [TEST_CASE][PASSED] - Test Cases/Case statement/Manage account: Test Cases/Case statement/Manage account
+
+2021-05-29 17:19:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:19:53 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:19:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:19:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:19:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:19:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:19:55 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:58 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:20:03 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:20:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:20:04 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:20:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:20:04 - [TEST_STEP][PASSED] - var = "View info": null
+
+2021-05-29 17:20:04 - [TEST_STEP][PASSED] - click(findTestObject("account/span_Town Square_channelHeaderDropdownIcon")): Object: 'Object Repository/account/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2021-05-29 17:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/account/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2021-05-29 17:20:08 - [TEST_STEP][PASSED] - switch (var): null
+
+2021-05-29 17:20:08 - [TEST_STEP][PASSED] - case "View info":: null
+
+2021-05-29 17:20:08 - [TEST_STEP][PASSED] - click(findTestObject("account/button_View Info")): Object: 'Object Repository/account/button_View Info' is clicked on
+
+2021-05-29 17:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/account/button_View Info' is clicked on
+
+2021-05-29 17:20:09 - [TEST_STEP][PASSED] - break: null
+
+2021-05-29 17:20:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:20:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Loop Statement/Save Post 5 Times" time="28.982" classname="Test Cases/Loop Statement/Save Post 5 Times" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:20:09 - [TEST_CASE][PASSED] - Test Cases/Loop Statement/Save Post 5 Times: Test Cases/Loop Statement/Save Post 5 Times
+
+2021-05-29 17:20:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:20:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:20:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:20:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:20:11 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square"): Navigate to 'https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square' successfully
+
+2021-05-29 17:20:14 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square' successfully
+
+2021-05-29 17:20:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:20:14 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:20:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:20:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-29 17:20:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:20:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:20:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:20:16 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:20:19 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:20:24 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:20:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:20:25 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:20:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:20:25 - [TEST_STEP][PASSED] - for ([i = 0, i < 5, i += 1]): Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:25 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:30 - [TEST_STEP][PASSED] - if (i % 2 == 0): Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved"), 0): Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:31 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:32 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-05-29 17:20:32 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:34 - [TEST_STEP][PASSED] - if (i % 2 == 0): Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved"), 0): Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:34 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:35 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-05-29 17:20:35 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello3' is hovered
+
+2021-05-29 17:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save' is clicked on
+
+2021-05-29 17:20:37 - [TEST_STEP][PASSED] - if (i % 2 == 0): Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved"), 0): Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-29 17:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved' is present
+
+2021-05-29 17:20:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:20:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Loop Statement/Change Theme 3 Times" time="33.881" classname="Test Cases/Loop Statement/Change Theme 3 Times" status="PASSED">
+         <system-out><![CDATA[2021-05-29 17:20:38 - [TEST_CASE][PASSED] - Test Cases/Loop Statement/Change Theme 3 Times: Test Cases/Loop Statement/Change Theme 3 Times
+
+2021-05-29 17:20:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:20:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:20:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:20:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:20:40 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square"): Navigate to 'https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square' successfully
+
+2021-05-29 17:20:43 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square' successfully
+
+2021-05-29 17:20:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Internal/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:20:43 - [TEST_CASE][PASSED] - Test Cases/Internal/Login: Test Cases/Internal/Login
+
+2021-05-29 17:20:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 17:20:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-29 17:20:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-29 17:20:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 17:20:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 17:20:45 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-autotest.herokuapp.com/login"): Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:20:49 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-autotest.herokuapp.com/login' successfully
+
+2021-05-29 17:20:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_loginId"), "vophong16121999@gmail.com"): Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:20:53 - [MESSAGE][PASSED] - Text 'vophong16121999@gmail.com' is set on object 'Object Repository/Page_Login/input_loginId'
+
+2021-05-29 17:20:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:20:54 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Login/input_password'
+
+2021-05-29 17:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+2021-05-29 17:20:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Internal/Login' successfully
+
+2021-05-29 17:20:55 - [TEST_STEP][PASSED] - for ([i = 0, i < 3, i += 1]): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting' is clicked on
+
+2021-05-29 17:20:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon' is clicked on
+
+2021-05-29 17:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon' is clicked on
+
+2021-05-29 17:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Display")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Display' is clicked on
+
+2021-05-29 17:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Display' is clicked on
+
+2021-05-29 17:21:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme' is clicked on
+
+2021-05-29 17:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme' is clicked on
+
+2021-05-29 17:21:00 - [TEST_STEP][PASSED] - if (i % 2 == 0): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme' is clicked on
+
+2021-05-29 17:21:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme' is clicked on
+
+2021-05-29 17:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme' is clicked on
+
+2021-05-29 17:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme' is clicked on
+
+2021-05-29 17:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme' is clicked on
+
+2021-05-29 17:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting' is clicked on
+
+2021-05-29 17:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting' is clicked on
+
+2021-05-29 17:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon' is clicked on
+
+2021-05-29 17:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon' is clicked on
+
+2021-05-29 17:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Display")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Display' is clicked on
+
+2021-05-29 17:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Display' is clicked on
+
+2021-05-29 17:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme' is clicked on
+
+2021-05-29 17:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme' is clicked on
+
+2021-05-29 17:21:05 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-05-29 17:21:05 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_window_dark_theme' is clicked on
+
+2021-05-29 17:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/img_window_dark_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_window_dark_theme' is clicked on
+
+2021-05-29 17:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_window_dark_theme' is clicked on
+
+2021-05-29 17:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme' is clicked on
+
+2021-05-29 17:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme' is clicked on
+
+2021-05-29 17:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting' is clicked on
+
+2021-05-29 17:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting' is clicked on
+
+2021-05-29 17:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon' is clicked on
+
+2021-05-29 17:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon' is clicked on
+
+2021-05-29 17:21:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 17:21:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Display")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Display' is clicked on
+
+2021-05-29 17:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Display' is clicked on
+
+2021-05-29 17:21:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme' is clicked on
+
+2021-05-29 17:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme' is clicked on
+
+2021-05-29 17:21:10 - [TEST_STEP][PASSED] - if (i % 2 == 0): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme' is clicked on
+
+2021-05-29 17:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme' is clicked on
+
+2021-05-29 17:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme' is clicked on
+
+2021-05-29 17:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme' is clicked on
+
+2021-05-29 17:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme' is clicked on
+
+2021-05-29 17:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting")): Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting' is clicked on
+
+2021-05-29 17:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting' is clicked on
+
+2021-05-29 17:21:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 17:21:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-29 17:10:55 - [TEST_SUITE][PASSED] - Run all test cases: Test Cases/Loop Statement/Change Theme 3 Times]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

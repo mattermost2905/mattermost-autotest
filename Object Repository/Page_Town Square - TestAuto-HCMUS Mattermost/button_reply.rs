@@ -3,15 +3,15 @@
    <description></description>
    <name>button_reply</name>
    <tag></tag>
-   <elementGuidId>bb72d9bf-7e68-415f-b9c0-c34f84ede94a</elementGuidId>
+   <elementGuidId>fd5f49d1-1edc-4953-b868-644ebbf7cc39</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='CENTER_commentIcon_4hqx8756s7yhpg1e4rrzdwmg8e']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#CENTER_commentIcon_4hqx8756s7yhpg1e4rrzdwmg8e</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='CENTER_commentIcon_4hqx8756s7yhpg1e4rrzdwmg8e']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

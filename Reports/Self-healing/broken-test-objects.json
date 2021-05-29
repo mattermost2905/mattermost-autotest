@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Search/input_Town Square_searchBox_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost_position.png"
     }
   ]
 }

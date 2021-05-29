@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/login')
 
-WebUI.callTestCase(findTestCase('Internal/Login succeed'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Turn off Channel Switcher if username.length greater than 5/button_abcd_style--none sidebar-header-drop_b74a95'))
 
@@ -34,4 +34,6 @@ WebUI.click(findTestObject('Object Repository/Turn off Channel Switcher if usern
 WebUI.click(findTestObject('Object Repository/Turn off Channel Switcher if username.length greater than 5/input_On_channelSwitcher'))
 
 WebUI.click(findTestObject('Object Repository/Turn off Channel Switcher if username.length greater than 5/button_Save'))
+
+WebUI.closeBrowser()
 

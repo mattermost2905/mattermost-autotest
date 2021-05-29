@@ -6,12 +6,12 @@
    <elementGuidId>1cd2c9f1-c02b-4c0d-bed7-1195018c27c9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='premadeThemeOrganization']/label/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#premadeThemeOrganization > label > img.img-responsive</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='premadeThemeOrganization']/label/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

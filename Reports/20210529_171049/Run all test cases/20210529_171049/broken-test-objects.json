@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210529_171049/Run all test cases/20210529_171049/Object Repository/Edit Fullname/Page_Mattermost/span_Back to Mattermost_position.png"
+    }
+  ]
+}

@@ -6,12 +6,12 @@
    <elementGuidId>927cbf9e-ad12-4c5a-a51f-2f6bb334aeba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='headerInfo']/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.style--none.sidebar-header-dropdown__icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='headerInfo']/button</value>
       </entry>
       <entry>
          <key>BASIC</key>

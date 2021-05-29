@@ -6,12 +6,12 @@
    <elementGuidId>2dad16a8-cf90-4678-b4a0-1f94b0462709</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.save-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

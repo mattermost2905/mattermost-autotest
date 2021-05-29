@@ -6,12 +6,12 @@
    <elementGuidId>d0d9af4f-316d-4b19-86e8-7bd151391785</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='edit_post_4hqx8756s7yhpg1e4rrzdwmg8e']/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#edit_post_4hqx8756s7yhpg1e4rrzdwmg8e > button.style--none</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='edit_post_4hqx8756s7yhpg1e4rrzdwmg8e']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

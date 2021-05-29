@@ -6,12 +6,12 @@
    <elementGuidId>e7eaf091-1526-4e55-85f3-fe95687417d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='premadeThemeWindowsDark']/label/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#premadeThemeWindowsDark > label > img.img-responsive</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='premadeThemeWindowsDark']/label/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

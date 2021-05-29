@@ -6,12 +6,12 @@
    <elementGuidId>f2b75965-b651-4f25-af47-4157b6eec4a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='reply_textbox']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#reply_textbox</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='reply_textbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +31,7 @@
       <value>reply_textbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -87,7 +87,7 @@
       <value>id(&quot;reply_textbox&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='4hqx8756s7yhpg1e4rrzdwmg8e']/div/div/div/div[2]/div/textarea</value>
+      <value>//div[@id='6y4qyeqbcpnyjj7ozy7hxbcnaa']/div/div/div/div[2]/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='4hqx8756s7yhpg1e4rrzdwmg8e']/div/div/div/div[2]/div/textarea</value>
    </webElementXpaths>
 </WebElementEntity>

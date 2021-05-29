@@ -3,15 +3,15 @@
    <description></description>
    <name>button_phong_save</name>
    <tag></tag>
-   <elementGuidId>cc99e28e-4827-4ad6-aae8-38f11b8a442e</elementGuidId>
+   <elementGuidId>beb779c5-c91f-4f74-8e54-2290af027884</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='CENTER_flagIcon_fmrd9h1k7iyw7n6anqd8dfhrcy']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#CENTER_flagIcon_fmrd9h1k7iyw7n6anqd8dfhrcy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='CENTER_flagIcon_fmrd9h1k7iyw7n6anqd8dfhrcy']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

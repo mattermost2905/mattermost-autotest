@@ -3,15 +3,15 @@
    <description></description>
    <name>div_phong_hello3</name>
    <tag></tag>
-   <elementGuidId>990ea98e-c991-4665-9c10-60cbbec546b0</elementGuidId>
+   <elementGuidId>6c36c290-220c-4730-9f67-a4a9d8fa2e21</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='post_fmrd9h1k7iyw7n6anqd8dfhrcy']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#post_fmrd9h1k7iyw7n6anqd8dfhrcy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='post_fmrd9h1k7iyw7n6anqd8dfhrcy']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

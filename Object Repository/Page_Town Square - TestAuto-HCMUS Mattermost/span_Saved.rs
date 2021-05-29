@@ -6,12 +6,12 @@
    <elementGuidId>938724e6-98cb-450c-85be-ae40a8fd3b97</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='post_yb7848hdejnf3kyp4ea8e48n7w']/div/div[2]/span/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span > a > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='post_yb7848hdejnf3kyp4ea8e48n7w']/div/div[2]/span/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

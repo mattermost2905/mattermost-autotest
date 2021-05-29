@@ -6,12 +6,12 @@
    <elementGuidId>2e507d24-34ef-4fa8-9136-f46180895821</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='channelHeaderDescription']/span/p</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.header-description__text > p.markdown__paragraph-inline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='channelHeaderDescription']/span/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

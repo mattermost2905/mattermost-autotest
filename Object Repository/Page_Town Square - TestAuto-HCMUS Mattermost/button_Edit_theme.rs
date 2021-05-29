@@ -6,12 +6,12 @@
    <elementGuidId>babc313a-b232-4790-974b-3327f380f59d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='themeEdit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#themeEdit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='themeEdit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

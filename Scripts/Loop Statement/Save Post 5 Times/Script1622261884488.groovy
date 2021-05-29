@@ -29,7 +29,7 @@ for (i = 0; i < 5; i += 1) {
 
     WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_phong_save'), FailureHandling.STOP_ON_FAILURE)
 
-    if (i%2 == 0) {
+    if ((i % 2) == 0) {
         WebUI.verifyElementPresent(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_saved'), 0)
     }
 }

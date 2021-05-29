@@ -6,12 +6,12 @@
    <elementGuidId>8b35f833-1204-496b-89b8-a4c5495470aa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='edit_textbox']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#edit_textbox</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='edit_textbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

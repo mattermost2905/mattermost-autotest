@@ -6,11 +6,11 @@
    <elementGuidId>4e2fe586-bc31-4779-bade-dc24ce1e9533</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='accountSettings']/button</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//li[@id='accountSettings']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
