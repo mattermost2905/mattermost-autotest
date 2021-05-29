@@ -13,23 +13,27 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword as VerifyElementPresentKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square')
+
 WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span'))
+for (i = 0; i < 3; i += 1) {
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Set_a_Header'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create a team (Call testcase)/a_Create a Team'))
+    WebUI.setText(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/textarea_Edit_header_edit_textbox'), 'Header ' + 
+        (i + 1))
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_Team Name_teamNameInput'), 'mattermost')
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_header'))
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Next'))
-
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_httpsmattermost-autotest.herokuapp.co_ae0a1e'), 'hcmus')
-
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Finish'))
+    WebUI.verifyElementText(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/p_Header'), 'Header ' + (i + 1))
+}
 
 WebUI.closeBrowser()
 

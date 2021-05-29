@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/signin')
+WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/login')
 
 WebUI.setText(findTestObject('Object Repository/Edit Fullname/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     username)

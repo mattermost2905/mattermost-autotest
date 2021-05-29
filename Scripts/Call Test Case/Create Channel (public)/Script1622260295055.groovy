@@ -19,17 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span'))
+WebUI.click(findTestObject('Object Repository/Create Channel (public)/Page_Town Square - mattermost Mattermost/span_'))
 
-WebUI.click(findTestObject('Create a team (Call testcase)/a_Create a Team'))
+WebUI.setText(findTestObject('Object Repository/Create Channel (public)/Page_Town Square - mattermost Mattermost/input_Name_newChannelName'), 
+    'mattermosthcmus')
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_Team Name_teamNameInput'), 'mattermost')
+WebUI.setText(findTestObject('Object Repository/Create Channel (public)/Page_Town Square - mattermost Mattermost/textarea_student'), 
+    'mattermosthcmus')
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Next'))
+WebUI.setText(findTestObject('Object Repository/Create Channel (public)/Page_Town Square - mattermost Mattermost/textarea_studen_1'), 
+    'mattermosthcmus')
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_httpsmattermost-autotest.herokuapp.co_ae0a1e'), 'hcmus')
+WebUI.click(findTestObject('Create Channel (public)/Page_Town Square - mattermost Mattermost/span_Create Channel'))
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Finish'))
+WebUI.verifyTextPresent('System', false)
 
 WebUI.closeBrowser()
 

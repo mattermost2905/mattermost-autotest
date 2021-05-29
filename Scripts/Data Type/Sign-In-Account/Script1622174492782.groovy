@@ -26,8 +26,9 @@ WebUI.setText(findTestObject('Sign_In/input_All team communication in one place,
 WebUI.setEncryptedText(findTestObject('Sign_In/input_All team communication in one place, _a3edc6'), Password)
 
 WebUI.click(findTestObject('Sign_In/span_Sign in'))
-WebUI.verifyElementPresent(findTestObject('Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce'),
-	0)
+
+WebUI.verifyElementPresent(findTestObject('Login Successfully/Page_Town Square - python Mattermost/button_mattermost_style--none sidebar-heade_5275ce'), 
+    0)
 
 WebUI.closeBrowser()
 

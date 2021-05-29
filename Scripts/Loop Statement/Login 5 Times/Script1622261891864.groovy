@@ -17,19 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span'))
+WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/login')
 
-WebUI.click(findTestObject('Create a team (Call testcase)/a_Create a Team'))
+for (i = 0; i < 5; i += 1) {
+    WebUI.setText(findTestObject('Page_Login/input_loginId'), 'vophong16121999@gmail.com')
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_Team Name_teamNameInput'), 'mattermost')
+    WebUI.setText(findTestObject('Page_Login/input_password'), '12345678')
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Next'))
+    WebUI.click(findTestObject('Page_Login/button_Sign in'))
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_httpsmattermost-autotest.herokuapp.co_ae0a1e'), 'hcmus')
+    if (findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon')) {
+        WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon'))
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Finish'))
+        WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Log Out'))
+    }
+}
 
 WebUI.closeBrowser()
 

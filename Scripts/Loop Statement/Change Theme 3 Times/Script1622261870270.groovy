@@ -17,19 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square')
+
 WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span'))
+for (i = 0; i < 3; i += 1) {
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_menu_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create a team (Call testcase)/a_Create a Team'))
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Account Settings'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_Team Name_teamNameInput'), 'mattermost')
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Display'))
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Next'))
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Edit_theme'))
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_httpsmattermost-autotest.herokuapp.co_ae0a1e'), 'hcmus')
+    if ((i % 2) == 0) {
+        WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/img_organization_theme'))
+    } else {
+        WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/img_window_dark_theme'))
+    }
+    
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Save_theme'))
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Finish'))
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_Close_account_setting'))
+}
 
 WebUI.closeBrowser()
 

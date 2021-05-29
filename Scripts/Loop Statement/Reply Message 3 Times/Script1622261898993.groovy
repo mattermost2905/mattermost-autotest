@@ -17,19 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/testauto-hcmus/channels/town-square')
+
 WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span'))
+for (i = 0; i < 3; i += 1) {
+    WebUI.mouseOver(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/div_phong_hello2'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create a team (Call testcase)/a_Create a Team'))
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_reply'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_Team Name_teamNameInput'), 'mattermost')
+    WebUI.setText(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/textarea_reply_textbox'), 'Reply' + (i + 
+        1))
 
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Next'))
-
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_httpsmattermost-autotest.herokuapp.co_ae0a1e'), 'hcmus')
-
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Finish'))
+    WebUI.click(findTestObject('Page_Town Square - TestAuto-HCMUS Mattermost/button_addCommentButton'))
+}
 
 WebUI.closeBrowser()
 

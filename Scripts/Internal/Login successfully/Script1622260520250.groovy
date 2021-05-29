@@ -17,19 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Internal/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Create a team (Call testcase)/span'))
-
-WebUI.click(findTestObject('Create a team (Call testcase)/a_Create a Team'))
-
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_Team Name_teamNameInput'), 'mattermost')
-
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Next'))
-
-WebUI.setText(findTestObject('Create a team (Call testcase)/input_httpsmattermost-autotest.herokuapp.co_ae0a1e'), 'hcmus')
-
-WebUI.click(findTestObject('Create a team (Call testcase)/span_Finish'))
-
-WebUI.closeBrowser()
-

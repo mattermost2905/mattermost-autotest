@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-autotest.herokuapp.com/login')
+
 WebUI.setText(findTestObject('Page_Login/input_loginId'), 'vophong16121999@gmail.com')
 
 WebUI.setText(findTestObject('Page_Login/input_password'), '12345678')
